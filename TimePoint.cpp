@@ -43,7 +43,7 @@ const unsigned TimePoint::get_luna() const
 	return luna_to_num(luna);
 }
 
-void TimePoint::afisareVarsta(const TimePoint& event)
+void TimePoint::afisareTimpScurs(const TimePoint& event)
 {
 	std::chrono::duration<double> durata = event.calculVarsta();
 

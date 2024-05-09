@@ -30,6 +30,6 @@ public:
 	const unsigned get_zi() const;
 	const unsigned get_luna() const;
 
-	static void afisareVarsta(const TimePoint&); 
+	static void afisareTimpScurs(const TimePoint&); 
 };
 

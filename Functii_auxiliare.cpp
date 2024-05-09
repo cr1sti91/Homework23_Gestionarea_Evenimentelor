@@ -150,7 +150,7 @@ static void afisareTimpScurs(const Event& event)
 
     TimePoint eveniment(event.get_eventDate().an, event.get_eventDate().zi, event.get_eventDate().luna); 
 
-    TimePoint::afisareVarsta(eveniment); 
+    TimePoint::afisareTimpScurs(eveniment); 
     
 }
 
